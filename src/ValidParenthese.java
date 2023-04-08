@@ -7,12 +7,12 @@ public class ValidParenthese {
 
 
 	public boolean isValid(String s) {
-		Map<Character, Character> mapOpenToClose = new HashMap<>();
+		Map<Character, Character> mapOpenToClose = new HashMap<>(Map.of('(', ')', '[', ']', '{', '}'));
 
 		// map each open to close parentheses initially
-		mapOpenToClose.put('(', ')');
-		mapOpenToClose.put('[', ']');
-		mapOpenToClose.put('{', '}');
+//		mapOpenToClose.put('(', ')');
+//		mapOpenToClose.put('[', ']');
+//		mapOpenToClose.put('{', '}');
 
 		Deque<Character> stack = new ArrayDeque<>();
 

@@ -28,8 +28,5 @@ public class MergeTwoSortedLists {
 	// time: O(n) = space, n is the total lengths of two LLs
 
 
-	public static void main(String[] args) {
 
-		System.out.println("Hello World");
-	}
 }
